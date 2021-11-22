@@ -1,4 +1,7 @@
-# Kibana
+
+![logo-maia](https://user-images.githubusercontent.com/3780435/142850343-7d91488c-06cd-4fa4-bdab-35f50820af48.png)
+
+# MAIA by Kibana
 
 Kibana is your window into the [Elastic Stack](https://www.elastic.co/products). Specifically, it's a browser-based analytics and search dashboard for Elasticsearch.
 
