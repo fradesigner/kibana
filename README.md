@@ -52,12 +52,8 @@ For information about building the documentation, see the README in [elastic/doc
 
 Ideally, you should be running Elasticsearch and Kibana with matching version numbers. If your Elasticsearch has an older version number or a newer _major_ number than Kibana, then Kibana will fail to run. If Elasticsearch has a newer minor or patch number than Kibana, then the Kibana Server will log a warning.
 
+Installing Elasticsearch 
+https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html
+
 _Note: The version numbers below are only examples, meant to illustrate the relationships between different types of version numbers._
 
-
-## Questions? Problems? Suggestions?
-
-- If you've found a bug or want to request a feature, please create a [GitHub Issue](https://github.com/elastic/kibana/issues/new/choose).
-  Please check to make sure someone else hasn't already created an issue for the same topic.
-- Need help using Kibana? Ask away on our [Kibana Discuss Forum](https://discuss.elastic.co/c/kibana) and a fellow community member or
-Elastic engineer will be glad to help you out.
