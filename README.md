@@ -18,7 +18,7 @@ If you just want to try Kibana out, check out the [Elastic Stack Getting Started
 
 If you're interested in diving a bit deeper and getting a taste of Kibana's capabilities, head over to the [Kibana Getting Started Page](https://www.elastic.co/guide/en/kibana/current/get-started.html).
 
-### Using a Docker ElasticSearch
+### Using a Docker ElasticSearch 8
 Installing Elasticsearch 
 https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html
 
