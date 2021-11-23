@@ -15,19 +15,19 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 ## Getting Started MAIA Dashboard
 
 ## 1 Step
-git clone https://github.com/[YOUR_USERNAME]/kibana.git kibana
-cd kibana
+ git clone https://github.com/[YOUR_USERNAME]/kibana.git kibana
+ cd kibana
 -------
 ## 2 Step
 Install dependenciesedit
 Install the version of Node.js listed in the .node-version file. This can be automated with tools such as nvm, nvm-windows or avn. As we also include a .nvmrc file you can switch to the correct version when using nvm by running:
 
-nvm use
+ nvm use
 -------
 ## 3 Step
 Bootstrap Kibana and install all the dependencies:
 
-yarn kbn bootstrap
+ yarn kbn bootstrap
 
 ( In any other circumstance where you want to force the node_modules install step you can use: yarn kbn bootstrap --force-install ) 
 
