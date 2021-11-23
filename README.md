@@ -58,37 +58,11 @@ yarn start
 For more information visit here
 https://www.elastic.co/guide/en/kibana/master/development-getting-started.html#_configure_environmental_settings
 
-If you just want to try Kibana out, check out the [Elastic Stack Getting Started Page](https://www.elastic.co/start) to give it a whirl.
-
-If you're interested in diving a bit deeper and getting a taste of Kibana's capabilities, head over to the [Kibana Getting Started Page](https://www.elastic.co/guide/en/kibana/current/get-started.html).
 
 ### Using a Docker ElasticSearch 8
 Installing Elasticsearch 
 https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html
 
-### Using a Kibana Release
-
-If you want to use a Kibana release in production, give it a test run, or just play around:
-
-- Download the latest version on the [Kibana Download Page](https://www.elastic.co/downloads/kibana).
-- Learn more about Kibana's features and capabilities on the
-[Kibana Product Page](https://www.elastic.co/products/kibana).
-- We also offer a hosted version of Kibana on our
-[Cloud Service](https://www.elastic.co/cloud/as-a-service).
-
-### Building and Running Kibana, and/or Contributing Code
-
-You might want to build Kibana locally to contribute some code, test out the latest features, or try
-out an open PR:
-
-- [CONTRIBUTING.md](CONTRIBUTING.md) will help you get Kibana up and running.
-- If you would like to contribute code, please follow our [STYLEGUIDE.mdx](STYLEGUIDE.mdx).
-- For all other questions, check out the [FAQ.md](FAQ.md) and
-[wiki](https://github.com/elastic/kibana/wiki).
-
-## Documentation
-
-Visit [Elastic.co](http://www.elastic.co/guide/en/kibana/current/index.html) for the full Kibana documentation.
 
 For information about building the documentation, see the README in [elastic/docs](https://github.com/elastic/docs).
 
