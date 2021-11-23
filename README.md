@@ -13,21 +13,21 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 - [Questions? Problems? Suggestions?](#questions-problems-suggestions)
 
 ## Getting Started MAIA Dashboard
-## 1 Step
 
-## git clone https://github.com/[YOUR_USERNAME]/kibana.git kibana
+## 1 Step
+git clone https://github.com/[YOUR_USERNAME]/kibana.git kibana
 cd kibana
 -------
 ## 2 Step
 Install dependenciesedit
 Install the version of Node.js listed in the .node-version file. This can be automated with tools such as nvm, nvm-windows or avn. As we also include a .nvmrc file you can switch to the correct version when using nvm by running:
 
-## nvm use
+nvm use
 -------
 ## 3 Step
 Bootstrap Kibana and install all the dependencies:
 
-## yarn kbn bootstrap
+yarn kbn bootstrap
 
 ( In any other circumstance where you want to force the node_modules install step you can use: yarn kbn bootstrap --force-install ) 
 
@@ -37,21 +37,22 @@ If you have failures during yarn kbn bootstrap you may have some corrupted packa
 ## yarn cache clean
 -------
 ## 4 Step
-## Configure environmental settingsedit
+
+Configure environmental settingsedit
 Increase node.js heap sizeedit
 Kibana is a big project and for some commands it can happen that the process hits the default heap limit and crashes with an out-of-memory error. If you run into this problem, you can increase maximum heap size by setting the --max_old_space_size option on the command line. To set the limit for all commands, simply add the following line to your shell config: export NODE_OPTIONS="--max_old_space_size=2048".
 
 ## Run Elasticsearchedit
 Run the latest Elasticsearch snapshot. Specify an optional license with the --license flag.
 
-## yarn es snapshot --license trial
+yarn es snapshot --license trial
 
 -------
 ## 5 Step
 Run Kibanaedit
 In another terminal window, start up Kibana. Include developer examples by adding an optional --run-examples flag.
 
-## yarn start 
+yarn start 
 
 -----
 For more information visit here
