@@ -12,7 +12,50 @@ Kibana is your window into the [Elastic Stack](https://www.elastic.co/products).
 - [Version Compatibility with Elasticsearch](#version-compatibility-with-elasticsearch)
 - [Questions? Problems? Suggestions?](#questions-problems-suggestions)
 
-## Getting Started
+## Getting Started MAIA Dashboard
+## 1 Step
+
+## git clone https://github.com/[YOUR_USERNAME]/kibana.git kibana
+cd kibana
+-------
+## 2 Step
+Install dependenciesedit
+Install the version of Node.js listed in the .node-version file. This can be automated with tools such as nvm, nvm-windows or avn. As we also include a .nvmrc file you can switch to the correct version when using nvm by running:
+
+## nvm use
+-------
+## 3 Step
+Bootstrap Kibana and install all the dependencies:
+
+## yarn kbn bootstrap
+
+( In any other circumstance where you want to force the node_modules install step you can use: yarn kbn bootstrap --force-install ) 
+
+
+If you have failures during yarn kbn bootstrap you may have some corrupted packages in your yarn cache which you can clean with:
+
+## yarn cache clean
+-------
+## 4 Step
+## Configure environmental settingsedit
+Increase node.js heap sizeedit
+Kibana is a big project and for some commands it can happen that the process hits the default heap limit and crashes with an out-of-memory error. If you run into this problem, you can increase maximum heap size by setting the --max_old_space_size option on the command line. To set the limit for all commands, simply add the following line to your shell config: export NODE_OPTIONS="--max_old_space_size=2048".
+
+## Run Elasticsearchedit
+Run the latest Elasticsearch snapshot. Specify an optional license with the --license flag.
+
+## yarn es snapshot --license trial
+
+-------
+## 5 Step
+Run Kibanaedit
+In another terminal window, start up Kibana. Include developer examples by adding an optional --run-examples flag.
+
+## yarn start 
+
+-----
+For more information visit here
+https://www.elastic.co/guide/en/kibana/master/development-getting-started.html#_configure_environmental_settings
 
 If you just want to try Kibana out, check out the [Elastic Stack Getting Started Page](https://www.elastic.co/start) to give it a whirl.
 
